@@ -1,0 +1,35 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# 环境变量
+.env
+.env.local
+*.env
+!.env.example
+
+# 构建产物
+dist/
+*.tsbuildinfo
+
+# 本地工具
+.claude/
+.worktrees/
+
+# 压缩包
+*.zip
+
+# macOS
+.DS_Store
